@@ -4,7 +4,7 @@ from mlenv.diff import Change, ChangeKind, Risk, diff_snapshots
 from mlenv.models import Snapshot
 from mlenv.storage import load, loads, save
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "Change",
