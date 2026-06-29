@@ -27,7 +27,8 @@ low   packages  rich        13.7.0 -> 13.8.0
 ## Install
 
 ```console
-$ pip install mlenv          # core: Python, platform, packages, CUDA, env vars
+$ pip install mlenv                 # from PyPI, once released
+$ pip install git+https://github.com/jmweb-org/mlenv   # latest, available now          # core: Python, platform, packages, CUDA, env vars
 $ pip install "mlenv[gpu]"   # adds GPU model and driver capture via NVML
 ```
 
