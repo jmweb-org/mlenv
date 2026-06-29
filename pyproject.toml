@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mlenv"
+name = "mlenv-cli"
 version = "0.2.0"
 description = "Snapshot the machine learning environment and diff two snapshots."
 readme = "README.md"

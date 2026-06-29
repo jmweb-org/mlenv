@@ -1,7 +1,7 @@
 # mlenv
 
 [![CI](https://github.com/jmweb-org/mlenv/actions/workflows/ci.yml/badge.svg)](https://github.com/jmweb-org/mlenv/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/mlenv.svg)](https://pypi.org/project/mlenv/)
+[![PyPI](https://img.shields.io/pypi/v/mlenv-cli.svg)](https://pypi.org/project/mlenv-cli/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -27,9 +27,9 @@ low   packages  rich        13.7.0 -> 13.8.0
 ## Install
 
 ```console
-$ pip install mlenv                 # from PyPI, once released
+$ pip install mlenv-cli                 # from PyPI, once released
 $ pip install git+https://github.com/jmweb-org/mlenv   # latest, available now          # core: Python, platform, packages, CUDA, env vars
-$ pip install "mlenv[gpu]"   # adds GPU model and driver capture via NVML
+$ pip install "mlenv-cli[gpu]"   # adds GPU model and driver capture via NVML
 ```
 
 `mlenv` has no heavy dependencies and runs anywhere. GPU details are read
